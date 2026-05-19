@@ -17,3 +17,6 @@ A simple calculator user interface built using HTML and CSS.
 - Flexbox
 - Button styling
 - Layout structuring
+  
+##Live Demo
+  https://linakhairnar.github.io/calculator-ui/
