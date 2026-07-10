@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Calculator UI</title>
   <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
   
@@ -14,28 +15,31 @@
 <h1>Calculator</h1>
 <div class="container">
     <div class="display">
-    <input type="text" readonly placeholder="0">
+    <input type="text" id="input" placeholder="0" readonly>
   </div>
 
   <div class="buttons">
-    <button class="btn">1</button>
-    <button class="btn">2</button>
-    <button class="btn">3</button>
-    <button class="op">+</button>
-    <button class="btn">4</button>
-    <button class="btn">5</button>
-    <button class="btn">6</button>
-    <button class="op">-</button>
-    <button class="btn">7</button>
-    <button class="btn">8</button>
-    <button class="btn">9</button>
-    <button class="op">*</button>
-    <button class="clear">C</button>
-    <button class="btn">0</button>
-    <button class="equal">=</button>
-    <button class="op">/</button>
+     <button class="clear" onclick="allClear()" >C</button>
+    <button class="del" onclick="backPress()">Del</button>
+    <button class="equal" onclick="expression()">=</button>
+    <button class="op" onclick="display(this.innerHTML)">/</button>
+    <button class="btn" onclick="display(this.innerHTML)">1</button>
+    <button class="btn" onclick="display(this.innerHTML)">2</button>
+    <button class="btn" onclick="display(this.innerHTML)">3</button>
+    <button class="op"  onclick="display(this.innerHTML)">+</button>
+    <button class="btn" onclick="display(this.innerHTML)">4</button>
+    <button class="btn" onclick="display(this.innerHTML)">5</button>
+    <button class="btn" onclick="display(this.innerHTML)">6</button>
+    <button class="op" onclick="display(this.innerHTML)">-</button>
+    <button class="btn" onclick="display(this.innerHTML)">7</button>
+    <button class="btn" onclick="display(this.innerHTML)">8</button>
+    <button class="btn" onclick="display(this.innerHTML)">9</button>
+    <button class="op" onclick="display(this.innerHTML)">*</button>
+    <button class="btn" onclick="display(this.innerHTML)">00</button>
+    <button class="btn zero" onclick="display(this.innerHTML)">0</button>
+    <button class="op" onclick="display(this.innerHTML)">%</button>
   </div>
 </div>
-<script src="script.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>
