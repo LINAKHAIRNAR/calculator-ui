@@ -19,4 +19,4 @@ A simple calculator user interface built using HTML and CSS.
 - Layout structuring
   
 ##Live Demo
-  https://linakhairnar.github.io/calculator-ui/
+  https://linakhairnar.github.io/Calculator/
